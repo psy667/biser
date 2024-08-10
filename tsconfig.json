@@ -3,7 +3,7 @@
     "lib": ["ESNext"],
 
     "target": "ES6",
-    "module": "CommonJS",
+    "module": "ESNext",
 
     "allowJs": true,
 
