@@ -7,6 +7,7 @@
     "prettier": "prettier --write src",
     "build": "bun build src/index.ts --outdir dist"
   },
+  "main": "dist/index.js",
   "author": {
     "name": "psy667",
     "url": "https://github.com/psy667"
@@ -20,7 +21,7 @@
   "description": "Binary serialization library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psy667/biser"
+    "url": "git+https://github.com/psy667/biser.git"
   },
   "module": "src/index.ts",
   "type": "module",
