@@ -5,7 +5,7 @@
     "test": "bun test",
     "publish": "npm publish --access public",
     "prettier": "prettier --write src",
-    "build": "bun build src/index.ts --outdir dist"
+    "build": "tsc"
   },
   "main": "dist/index.js",
   "author": {
