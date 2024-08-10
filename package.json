@@ -1,0 +1,36 @@
+{
+  "name": "@psy667/biser",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "bun test",
+    "publish": "npm publish --access public",
+    "prettier": "prettier --write src",
+    "build": "bun build src/index.ts --outdir dist"
+  },
+  "author": {
+    "name": "psy667",
+    "url": "https://github.com/psy667"
+  },
+  "keywords": [
+    "binary",
+    "serialization",
+    "bun"
+  ],
+  "license": "MIT",
+  "description": "Binary serialization library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psy667/biser"
+  },
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "prettier": "^3.3.3"
+  }
+}
