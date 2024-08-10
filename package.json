@@ -1,6 +1,6 @@
 {
   "name": "@psy667/biser",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "test": "bun test",
     "publish": "npm publish --access public",
